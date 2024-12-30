@@ -35,7 +35,8 @@ keybind = ctrl+space>e=equalize_splits
 window-padding-balance = true 
 # get that state saved, if I think I know what this means!
 window-save-state = always
-macos-titlebar-style=transparent
+macos-titlebar-style = transparent
+quit-after-last-window-closed = true
 
 # Empty values reset the configuration to the default value
 font-family =
