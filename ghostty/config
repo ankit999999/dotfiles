@@ -1,0 +1,43 @@
+# Setting up the theme!
+theme = Kanagawa Dragon
+
+# Cursor related changes!
+cursor-style = block
+cursor-style-blink = true
+cursor-color = #FF007F
+# text under cursor is to be white
+cursor-text = #FFFFFF
+# Necessary for reflecting changes i guess!
+shell-integration-features = no-cursor,sudo,no-title
+
+# line-height 
+adjust-cell-height = 10%
+
+# hide mouse when typing
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+keybind = cmd+comma=ignore
+keybind = cmd+w=ignore
+keybind = ctrl+space>x=close_surface
+keybind = ctrl+space>n=new_window
+keybind = ctrl+space>backslash=new_split:right
+keybind = ctrl+space>-=new_split:down
+keybind = ctrl+space>r=reload_config
+keybind = ctrl+space>j=goto_split:bottom
+keybind = ctrl+space>k=goto_split:top
+keybind = ctrl+space>h=goto_split:left
+keybind = ctrl+space>l=goto_split:right
+keybind = ctrl+space>z=toggle_split_zoom
+keybind = ctrl+space>e=equalize_splits
+
+window-padding-balance = true 
+# get that state saved, if I think I know what this means!
+window-save-state = always
+macos-titlebar-style=transparent
+
+# Empty values reset the configuration to the default value
+font-family =
+
+# I dunno what this means but I do not want it to copy something to +clipboard or shit so!!!
+copy-on-select = clipboard
